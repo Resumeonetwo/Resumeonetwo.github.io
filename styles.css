@@ -1,0 +1,39 @@
+@keyframes opacity_change {
+    from {opacity: 10%;}
+    to {opacity: 100%;}
+}
+  
+
+body{
+    animation-name: opacity_change;
+    animation-duration: 3s;
+    background-color: black;
+    color: white;
+}
+
+.title{
+    font-size: xx-large;
+    text-align: center;
+    
+}
+.ptitle{
+    font-size: x-large;
+    text-align: center;
+    margin-top: 5em;
+    margin-bottom: 5em;
+
+}
+.pparagr{
+    margin-left: 2em;
+    margin-right: 2em;
+    font-size: large;
+    text-align: left;
+}
+
+.psubtitle{
+    list-style:square;
+    margin-left: 2em;
+    font-size: larger;
+
+
+}
